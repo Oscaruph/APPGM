@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ButtonUno">#26642D</color>
+     <color name="ButtonDos">#3F51B5</color>
+    <color name="ButtonTres">#F44336</color>
+    <color name="ButtonCuatro">#FFEB3B</color>
+    <color name="ButtonCinco">#673AB7</color>
+    <color name="ButtonSeis">#000000</color>
+    <color name="ButtonSiete">#03A9F4</color>
+    <color name="ButtonOcho">#747474</color>
+    <color name="Texto">#FFFFFF</color>
+
+
+
+</resources>

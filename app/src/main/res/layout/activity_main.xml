@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/activity_maps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.60"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSitioUno"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonUno"
+            android:onClick="onClick"
+            android:tag="0"
+            android:text="@string/ButtonUno"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSitioDos"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonDos"
+            android:onClick="onClick"
+            android:tag="1"
+            android:text="@string/ButtonDos"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSitioTres"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonTres"
+            android:onClick="onClick"
+            android:tag="2"
+            android:text="@string/ButtonTres"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSitioCuatro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonCuatro"
+            android:onClick="onClick"
+            android:tag="3"
+            android:text="@string/ButtonCuatro"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSitioCinco"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonCinco"
+            android:onClick="onClick"
+            android:tag="4"
+            android:text="@string/ButtonCinco"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSitioSeis"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonSeis"
+            android:onClick="onClick"
+            android:tag="5"
+            android:text="@string/ButtonSeis"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSitioSiete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonSiete"
+            android:onClick="onClick"
+            android:tag="6"
+            android:text="@string/ButtonSiete"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSitioOcho"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ButtonOcho"
+            android:onClick="onClick"
+            android:tag="7"
+            android:text="@string/ButtonOcho"
+            android:textColor="@color/Texto"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

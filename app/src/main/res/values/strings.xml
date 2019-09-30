@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">APPGM</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ButtonUno">Ciudad de Mexico</string>
+    <string name="ButtonDos">Ciudad de Londres</string>
+    <string name="ButtonTres">Ciudad de Paris</string>
+    <string name="ButtonCuatro">Ciudad de Washington</string>
+    <string name="ButtonCinco">Ciudad de Brasilia</string>
+    <string name="ButtonSeis">Ciudad de Bruselas</string>
+    <string name="ButtonSiete">Ciudad de Moscu</string>
+    <string name="ButtonOcho">Ciudad del Cairo</string>
+</resources>
